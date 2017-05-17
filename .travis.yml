@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: https://git.heroku.com/calm-citadel-90960.git
+  provider: heroku
+  api_key:
+    secure: H/eEQ/VeSmLDSslQ5a9YuRrX/2hxSdXXxlcqZArYAkD8kKED6v0PFxwKTEanYDZEp4OccBr+oYqWFdkUFfO6MbAYd7XIQJr+NSmcQJCgRbtMlx4bnoO+bbaZwpcKf9Kgza/uDCkmMqlolwW2U2pbGuRarBCHNU4XTt22IK0zdpc3hcmKCc9oMKxC9flxQl2yL7ZtrSFe+XAtk1nZaqatC3E7QbeZwyul8HmaA/5o3LTphjJeA/hlsfYAcHe6Mg9MUoHV5flowY8Jo3GrH2FG366FzWqhZSXm8gEaomjJLo8CKqnQnRdnYd5F0DZNpQIIC7mDU5XPLFTlvtNLq2hvckG5ZN2Uq0tEMDvhBi3lKpwnsOC8meEGKV+8k1w8hbA0FDJ0yRwKlprkb34lNIQCCVXmn0X1wYDNY+7dRUPX7t6n9ricaMQycRGXB/BzGUEfja9aMQP5GIrrU294MuStzD4skt6NDEWZK+zxq+OgIw+Z66Bs2WmG3qSIY/aLbA8/FZjn1l40Rtmx5Rdw9NR9ABo96td21Xs2w43R4CbSj8OPICz6nPpFIDTOZSXL2I/eSgFxBe3b73EJMFngLYFi7+Jjs25nKE/W43AfrPNbV7g2vPu28hUfvdcdXzvYqSVEyfpJlNhsm4j5beTC7RL1MF6MMLUtKQUJRLlhFB9OXj0=
+  app: RandomizedRPGProject
+  on:
+    repo: adabotcon/RandomizedRPGProject
